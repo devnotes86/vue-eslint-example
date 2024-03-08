@@ -12,5 +12,9 @@ module.exports = {
         'vue/no-unused-components': 'error',
         'vue/no-unused-refs': 'error'
     },
+    "parserOptions": {
+        "parser":  "@typescript-eslint/parser",
+        "sourceType": "module"
+    },
     "ignorePatterns": ["src/*.css"]
 }
